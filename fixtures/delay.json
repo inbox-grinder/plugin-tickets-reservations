@@ -1,0 +1,48 @@
+{
+  "message": {
+    "accountId": "account-personal",
+    "mailboxName": "INBOX",
+    "uid": 7788,
+    "messageId": "<bill-initial@power.example>",
+    "size": 2048,
+    "sourceId": "source-1"
+  },
+  "sender": {
+    "name": "Example Air",
+    "address": "travel@air.example",
+    "domain": "air.example"
+  },
+  "recipients": {
+    "to": [
+      {
+        "name": "User",
+        "address": "user@example.com",
+        "domain": "example.com"
+      }
+    ],
+    "cc": [],
+    "bcc": []
+  },
+  "subject": "Flight booking ABC123",
+  "date": "2026-10-26T09:00:00Z",
+  "headers": {},
+  "textBody": "Airline: IB\nConfirmation: ABC123\nBooking date: 2026-10-24\nPassenger: Alex Example\nPassenger: Sam Example\nSegment: outbound\nFlight: IB532\nOrigin: MAD\nDestination: VGO\nScheduled departure: 2026-10-26T11:40:00+01:00\nDeparture: 2026-10-26T12:10:00+01:00\nArrival: 2026-10-26T13:30:00+01:00\nStatus: delayed",
+  "htmlBody": null,
+  "links": [],
+  "attachments": [],
+  "invocation": {
+    "schemaVersion": "1",
+    "config": {},
+    "sources": [
+      {
+        "id": "source-1",
+        "kind": "email"
+      }
+    ],
+    "capabilities": [
+      "records",
+      "remote-service",
+      "scheduled-refresh"
+    ]
+  }
+}
